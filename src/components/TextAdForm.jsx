@@ -42,7 +42,7 @@ const TextAdForm = () => {
                         className="form-control"
                         id="input1"
                         placeholder="Add a heading that would make user interested"
-                        required=""
+                        required
                       />
                     </div>
                     <div className="mb-3">
@@ -52,7 +52,7 @@ const TextAdForm = () => {
                         className="form-control"
                         id="input2"
                         placeholder="Add a heading that would make user interested"
-                        required=""
+                        required
                       />
                     </div>
                     <div className="mb-3">
@@ -62,7 +62,7 @@ const TextAdForm = () => {
                         className="form-control"
                         id="input2"
                         placeholder="Add your business name"
-                        required=""
+                        required
                       />
                     </div>
                     <div className="mb-3 d-md-none">
@@ -72,7 +72,7 @@ const TextAdForm = () => {
                         className="form-control"
                         id="input3"
                         placeholder="Add your business name"
-                        required=""
+                        required
                       />
                     </div>
                   </div>
@@ -85,6 +85,7 @@ const TextAdForm = () => {
                         placeholder="Add primary text to help users understand more about your products, services, or offers"
                         rows={4}
                         defaultValue={""}
+                        required
                       />
                     </div>
                     <div className="mb-3">
@@ -108,7 +109,7 @@ const TextAdForm = () => {
                     className="form-control"
                     id="input2"
                     placeholder="Add the URL of the landing page  you want to redirect users to"
-                    required=""
+                    required
                   />
                 </div>
                 <div className="text-end">

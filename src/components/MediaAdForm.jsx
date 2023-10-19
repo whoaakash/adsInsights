@@ -52,7 +52,7 @@ const MediaAdForm = () => {
                         className="form-control"
                         id="input2"
                         placeholder="Add a heading that would make user interested"
-                        required=""
+                        required
                       />
                     </div>
                   </div>
@@ -65,6 +65,7 @@ const MediaAdForm = () => {
                         placeholder="Add primary text to help users understand more about your products, services, or offers"
                         rows={4}
                         defaultValue={""}
+                        required
                       />
                     </div>
                   </div>
@@ -79,7 +80,7 @@ const MediaAdForm = () => {
                       className="form-control"
                       id="input1"
                       placeholder="Add the URL of the Image you want to use for the ad"
-                      required=""
+                      required
                     />
                   </div>
                   <div className="col-md-4 col-sm-12 mb-3">
@@ -91,7 +92,7 @@ const MediaAdForm = () => {
                       className="form-control"
                       id="input2"
                       placeholder="Add the URL of the Image you want to use for the ad"
-                      required=""
+                      required
                     />
                   </div>
                   <div className="col-md-4 col-sm-12 mb-3">
@@ -101,7 +102,7 @@ const MediaAdForm = () => {
                       className="form-control"
                       id="input3"
                       placeholder="Add the URL of the Image you want to use for the ad"
-                      required=""
+                      required
                     />
                   </div>
                 </div>
@@ -113,7 +114,7 @@ const MediaAdForm = () => {
                     className="form-control"
                     id="input2"
                     placeholder="Add the URL of the video you want to use for the ad"
-                    required=""
+                    required
                   />
                 </div>
                 <div className="row">
@@ -124,7 +125,7 @@ const MediaAdForm = () => {
                       className="form-control"
                       id="input1"
                       placeholder="Add your business name"
-                      required=""
+                      required
                     />
                   </div>
                   <div className="col-md-6 col-sm-12 mb-3">
@@ -147,7 +148,7 @@ const MediaAdForm = () => {
                     className="form-control"
                     id="input2"
                     placeholder="Add the URL of the landing page  you want to redirect users to"
-                    required=""
+                    required
                   />
                 </div>
                 <div className="text-end">
