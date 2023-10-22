@@ -13,7 +13,7 @@ const TextAdForm = () => {
     setTimeout(() => {
       setShowModal(false);
       navigate("/create-ads");
-    }, 1000);
+    }, 600);
   };
 
   const handleCloseModal = () => {

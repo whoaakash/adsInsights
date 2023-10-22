@@ -20,7 +20,7 @@ const DonutChart = () => {
   const options = {
     plugins: {
       legend: {
-        position: "right", // Set legend position to right
+        position: "right",
       },
     },
   };

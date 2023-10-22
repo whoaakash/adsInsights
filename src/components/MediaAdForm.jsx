@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Container, Modal } from "react-bootstrap";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const MediaAdForm = () => {
@@ -13,7 +13,7 @@ const MediaAdForm = () => {
     setTimeout(() => {
       setShowModal(false);
       navigate("/create-ads");
-    }, 1000);
+    }, 600);
   };
 
   const handleCloseModal = () => {
